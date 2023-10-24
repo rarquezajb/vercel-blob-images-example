@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -48,7 +49,10 @@ export default function Home() {
             height={37}
             priority
           />
+          <br />
         </div>
+
+        <h1><Link href="/avatar/upload">Vercel Blob Example - Click HERE</Link></h1>
 
         <div className={styles.grid}>
           <a
