@@ -52,7 +52,8 @@ export default function Home() {
           <br />
         </div>
 
-        <h1><Link href="/avatar/upload">Vercel Blob Example - Click HERE</Link></h1>
+        <h1><Link className={styles.underline} href="/avatar/serverupload">Vercel Blob Server Upload</Link></h1>
+        <h1><Link className={styles.underline} href="/avatar/upload">Vercel Blob Client Upload - not working :( waah...</Link></h1>
 
         <div className={styles.grid}>
           <a
